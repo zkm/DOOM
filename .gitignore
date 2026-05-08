@@ -1,0 +1,16 @@
+# Build output directories
+linuxdoom-1.10/linux/
+sndserv/linux/
+
+# Object files and static libraries
+*.o
+*.a
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# WAD files (proprietary game data — handled by wads/.gitignore)
+wads/
